@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+._debug {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background-color: #ddd;
+
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.d-inline-block {
+    display: inline-block;
+
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
