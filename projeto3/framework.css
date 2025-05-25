@@ -1,42 +1,97 @@
+:root {
+  --success: rgb(97, 146, 55);
+  --warning: rgb(224, 69, 12);
+  --dark: rgb(32, 32, 32);
+}
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 ._debug {
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
 .container {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .bg-light {
-    background-color: #ddd;
-
+  background-color: #ddd;
 }
 
 .d-flex {
-    display: flex;
-
+  display: flex;
 }
 
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
+}
+.column-gap-3 {
+  column-gap: 30px;
 }
 
 .d-inline-block {
-    display: inline-block;
-
+  display: inline-block;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .py-3 {
-    padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-15{
+    top: 15px;
+}
+
+.end-0 {
+    right: 0px;
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.rounded-1 {
+    border-radius: 10px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.125)
+}
+
+.list-unstyled {
+    list-style: none;
 }

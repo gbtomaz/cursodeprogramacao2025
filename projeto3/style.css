@@ -1,0 +1,15 @@
+.menu > li > a {
+  color: var(--dark);
+  text-decoration: none;
+  display: inline-block;
+  padding: 35px 0px;
+  border-top: 5px solid transparent;
+}
+
+.menu > li > a:hover {
+  border-top-color: var(--warning);
+}
+
+.menu > li > a span {
+  right: -20px;
+}
