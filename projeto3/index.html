@@ -31,9 +31,11 @@
             <li class="d-inline-block"><a href="">Serviços</a></li>
             <li class="d-inline-block position-relative">
               <a href="">Produtos</a>
-              <ul class="position-absolute list-unstyled">
-                <li><a href="">Categoria A</a></li>
-                <li><a href="">Categoria B</a></li>
+              <ul
+                class="position-absolute list-unstyled start-0 border-start border-warning bg-white d-none"
+              >
+                <li><a href="">Categoria&nbsp;A</a></li>
+                <li><a href="">Categoria&nbsp;B</a></li>
               </ul>
             </li>
             <li class="d-inline-block"><a href="">Contato</a></li>
@@ -49,5 +51,24 @@
         </nav>
       </div>
     </header>
+    <section class="py-100 hero">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <h2 class="text-white fs-5">Serviço completo para <span class="text-uppercase d-block">residencias e comercios</span></h2>
+          <h3 class="text-white fs-4">Jardinagem e Manutenção</h3>
+        </div>
+        <form class="bg-warning p-5 text-center" action="">
+          <h4 class="text-white fs-3 text-uppercase">Agendamento</h4>
+          <p class="text-white text-uppercase mt-1">
+            Informe seus dados abaixo
+          </p>
+          <input type="text" placeholder="Nome" required> 
+          <input type="email" placeholder="Email" required>
+          <input type="number" placeholder="Telefone" required>
+          <input type="date" placeholder="Data" required>
+          <button type="submit">Agendar</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

@@ -28,10 +28,16 @@ body {
   background-color: #ddd;
 }
 
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
 .d-flex {
   display: flex;
 }
 
+.d-none {
+  display: none;
+}
 .justify-content-between {
   justify-content: space-between;
 }
@@ -43,55 +49,98 @@ body {
   display: inline-block;
 }
 
+.d-block {
+  display: block;
+}
+
 .align-items-center {
   align-items: center;
 }
 
+.p-5 {
+  padding: 50px;
+}
 .py-3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .px-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .position-absolute {
-    position: absolute;
+  position: absolute;
 }
 
-.top-15{
-    top: 15px;
+.top-15 {
+  top: 15px;
 }
 
 .end-0 {
-    right: 0px;
+  right: 0px;
+}
+
+.start-0 {
+  left: 0px;
 }
 
 .bg-warning {
-    background-color: var(--warning);
+  background-color: var(--warning);
 }
 
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
 .text-white {
-    color: #fff;
+  color: #fff;
 }
 
 .text-success {
-    color: var(--success);
+  color: var(--success);
 }
 
 .rounded-1 {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .shadow {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.125)
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.125);
 }
 
 .list-unstyled {
-    list-style: none;
+  list-style: none;
+}
+
+.border-start {
+  border-left: 1px solid silver;
+}
+
+.border-warning {
+  border-color: var(--warning);
+}
+
+.fs-3 {
+  font-size: 30px;
+}
+.fs-4 {
+  font-size: 40px;
+}
+.fs-5 {
+  font-size: 50px;
+}
+
+.mt-1 {
+  margin-top: 10px;
 }

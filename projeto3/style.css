@@ -13,3 +13,36 @@
 .menu > li > a span {
   right: -20px;
 }
+
+.menu > li > ul {
+  top: 85px;
+}
+
+.menu > li > ul a{
+  color: var(--dark);
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.menu > li > ul a:hover{
+  background-color: var(--warning);
+  color: white;
+}
+
+.menu > li:hover > ul {
+  display: block;
+}
+
+.hero {
+  background-image: url('./img/bg1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero form{
+  width: 375px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
